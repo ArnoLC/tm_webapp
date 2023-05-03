@@ -16,11 +16,18 @@ import boxCNS from "./images/BOX_CNS.png";
 import boxCNT from "./images/BOX_CNT.png";
 import boxKR from "./images/BOX_KR.png";
 import boxDE from "./images/BOX_DE.png";
+import boxHU from "./images/BOX_HU.png";
+import boxIT from "./images/BOX_IT.png";
+import boxSP from "./images/BOX_SP.png";
+import boxBR from "./images/BOX_BR.png";
+import boxGR from "./images/BOX_GR.png";
+import boxPL from "./images/BOX_PL.png";
+import boxJP from "./images/BOX_JP.png";
 import logoSM from "./images/logo_sm.png";
 import home from "./images/Home.png";
 import config from "./config";
 
-const imgBox = [boxFR, boxEN, boxCNS, boxCNT, boxKR, boxDE];
+const imgBox = [boxFR, boxEN, boxCNS, boxCNT, boxKR, boxDE, boxHU, boxIT, boxSP, boxGR, boxBR, boxPL, boxJP];
 
 class PageMainPage extends Component {
     render() {
