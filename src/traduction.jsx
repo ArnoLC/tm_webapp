@@ -486,7 +486,7 @@ var traduction = {
         V4: "4",
         V5: "5",
         V6: "6",
-        ABOUTLINK: "http://www.scorpionmasque.com/en/turingmachine",
+        ABOUTLINK: "https://hutter-trade.com/sortiment/produkt/turing-machine-von-huch/",
         XPARADOX_FILENAME: "TuringMachine_The_X_Paradox_DE.pdf",
         CREATECHALLENGE: "Aufgabe erstellen",
         NEW: "New",
@@ -495,7 +495,7 @@ var traduction = {
         SELECTCARDS: "Wähle eine Prüfkarte",
         CLICKTOSELECT: "Klicke auf die Karte, um sie auszuwählen",
 
-        PRINTABLECHALLENGES: "Vorbereitete Aufgaben"
+        PRINTABLECHALLENGES: "Vorbereitete Aufgaben"    
     },
     6: {
         LANGCODE	:	"HU"	,
@@ -713,14 +713,14 @@ var traduction = {
         V6: "6",
         ABOUTLINK: "http://www.scorpionmasque.com/en/turingmachine",
         XPARADOX_FILENAME: "TuringMachine_The_X_Paradox_SP.pdf",
-        CREATECHALLENGE: "Aufgabe erstellen",
+        CREATECHALLENGE: "Crear un reto",
         NEW: "Nuevo",
-        CRITERIACARDS: "Prüfkarten",
-        CHOOSECARDS: "Wähle die Prüfkarten aus, die du verwenden willst",
-        SELECTCARDS: "Wähle eine Prüfkarte",
-        CLICKTOSELECT: "Klicke auf die Karte, um sie auszuwählen",
+        CRITERIACARDS: "Cartas de Criterio",
+        CHOOSECARDS: "Elige qué cartas de Criterio quieres usar",
+        SELECTCARDS: "Selecciona una carta de Criterio",
+        CLICKTOSELECT: "Pulsa para seleccionar otra carta",
 
-        PRINTABLECHALLENGES: "Vorbereitete Aufgaben"
+        PRINTABLECHALLENGES: "Descargar retos adicionales"
     },
     9: {
         LANGCODE	:	"GR"	,
@@ -786,7 +786,7 @@ var traduction = {
         V4: "4",
         V5: "5",
         V6: "6",
-        ABOUTLINK: "http://www.scorpionmasque.com/en/turingmachine",
+        ABOUTLINK: "https://kaissagames.com/b2c_gr/turing-machine.html",
         XPARADOX_FILENAME: "TuringMachine_The_X_Paradox_GR.pdf",
         CREATECHALLENGE: "ΔΗΜΙΟΥΡΓΗΣΤΕ ΜΙΑ ΠΡΟΚΛΗΣΗ",
         NEW: "ΝΕΟ",
@@ -862,7 +862,7 @@ var traduction = {
         V5: "5",
         V6: "6",
         ABOUTLINK: "http://www.scorpionmasque.com/en/turingmachine",
-        XPARADOX_FILENAME: "TuringMachine_The_X_Paradox_PT.pdf",
+        XPARADOX_FILENAME: "TuringMachine_The_X_Paradox_BR.pdf",
         CREATECHALLENGE: "Criar um desafio",
         NEW: "Novo",
         CRITERIACARDS: "Cartas de Critério",
