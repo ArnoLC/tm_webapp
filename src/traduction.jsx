@@ -561,7 +561,7 @@ var traduction = {
         V4: "4",
         V5: "5",
         V6: "6",
-        ABOUTLINK: "http://www.scorpionmasque.com/en/turingmachine",
+        ABOUTLINK: "http://www.reflexshop.hu/turing-machine",
         XPARADOX_FILENAME: "TuringMachine_The_X_Paradox_HU.pdf",
         CREATECHALLENGE: "Kihívás készítése",
         NEW: "ÚJ",
