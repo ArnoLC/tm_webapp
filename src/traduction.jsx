@@ -636,7 +636,7 @@ var traduction = {
         V4: "4",
         V5: "5",
         V6: "6",
-        ABOUTLINK: "http://www.scorpionmasque.com/en/turingmachine",
+        ABOUTLINK: "https://www.asmodee.it/giochi_turing_machine.php",
         XPARADOX_FILENAME: "TuringMachine_The_X_Paradox_IT.pdf",
         CREATECHALLENGE: "Crea una sfida",
         NEW: "Nuovo",
@@ -648,7 +648,7 @@ var traduction = {
         PRINTABLECHALLENGES: "Lista di Problemi Stampabile"
     },
     8: {
-        LANGCODE	:	"SP"	,
+        LANGCODE	:	"ES"	,
         LANG	:	"Español"	,
         QUICK	:	"JUGAR"	,
         DAiLYCHALLENGE	:	"Reto diario"	,
@@ -711,8 +711,8 @@ var traduction = {
         V4: "4",
         V5: "5",
         V6: "6",
-        ABOUTLINK: "http://www.scorpionmasque.com/en/turingmachine",
-        XPARADOX_FILENAME: "TuringMachine_The_X_Paradox_SP.pdf",
+        ABOUTLINK: "https://tranjisgames.com/tienda/turing-machine/",
+        XPARADOX_FILENAME: "TuringMachine_The_X_Paradox_ES.pdf",
         CREATECHALLENGE: "Crear un reto",
         NEW: "Nuevo",
         CRITERIACARDS: "Cartas de Criterio",

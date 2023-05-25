@@ -44,7 +44,7 @@ class ShareButton extends Component{
         let url = 'https://twitter.com/intent/tweet?o=0';
 
         // text
-        let text = this.props.socialTXT+"\n#turingmachinegame\n";
+        let text = this.props.socialTXT+"\n#TuringMachineGame\n";
         text = encodeURIComponent(text);
         url += '&text='+text;
 
@@ -80,7 +80,7 @@ class ShareButton extends Component{
 
     copyToClipboard() {
         const el = document.createElement("textarea");
-        el.value = this.props.socialTXT.toUpperCase()+"\n#turingmachinegame\n\nhttps://www.turingmachine.info\n";
+        el.value = this.props.socialTXT.toUpperCase()+"\n#TuringMachineGame\n\nhttps://www.turingmachine.info\n";
         document.body.appendChild(el);
         el.select();
         document.execCommand("copy");

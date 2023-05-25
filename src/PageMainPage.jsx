@@ -18,7 +18,7 @@ import boxKR from "./images/BOX_KR.png";
 import boxDE from "./images/BOX_DE.png";
 import boxHU from "./images/BOX_HU.png";
 import boxIT from "./images/BOX_IT.png";
-import boxSP from "./images/BOX_SP.png";
+import boxES from "./images/BOX_ES.png";
 import boxBR from "./images/BOX_BR.png";
 import boxGR from "./images/BOX_GR.png";
 import boxPL from "./images/BOX_PL.png";
@@ -27,7 +27,7 @@ import logoSM from "./images/logo_sm.png";
 import home from "./images/Home.png";
 import config from "./config";
 
-const imgBox = [boxFR, boxEN, boxCNS, boxCNT, boxKR, boxDE, boxHU, boxIT, boxSP, boxGR, boxBR, boxPL, boxJP];
+const imgBox = [boxFR, boxEN, boxCNS, boxCNT, boxKR, boxDE, boxHU, boxIT, boxES, boxGR, boxBR, boxPL, boxJP];
 
 class PageMainPage extends Component {
     render() {
