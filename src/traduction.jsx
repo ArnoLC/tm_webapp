@@ -799,7 +799,7 @@ var traduction = {
     },
     10: {
         LANGCODE	:	"BR"	,
-        LANG	:	"Portugués"	,
+        LANG	:	"Português"	,
         QUICK	:	"JOGAR"	,
         DAiLYCHALLENGE	:	"Desafio diário"	,
         SEARCH	:	"Buscar problema"	,
