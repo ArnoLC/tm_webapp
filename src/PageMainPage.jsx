@@ -27,10 +27,13 @@ import logoSM from "./images/logo_sm.png";
 import home from "./images/Home.png";
 import config from "./config";
 
-const imgBox = [boxFR, boxEN, boxCNS, boxCNT, boxKR, boxDE, boxHU, boxIT, boxES, boxGR, boxBR, boxPL, boxJP];
+const imgBox = [boxFR, boxEN, boxCNS, boxCNT, boxKR, boxDE, boxHU, boxIT, boxES, boxGR, boxBR, boxJP, boxPL];
 
 class PageMainPage extends Component {
     render() {
+        let rules = traduction[this.props.language]["DOWNLOADRULES"];
+        let paradox = traduction[this.props.language]["XPARADOX"];
+        if (this.props.language == 11) { rules = ""; paradox = ""}
         return (
             <div className="mainTab">
                 <img
@@ -75,7 +78,7 @@ class PageMainPage extends Component {
                         href={config["RULESLINK"] + "rules_" + traduction[this.props.language]["LANGCODE"] + ".pdf"}
                         target="_blank"
                     >
-                        {traduction[this.props.language]["DOWNLOADRULES"]}
+                        {rules} 
                     </a>
                     <a
                         href={config["CHALLENGEBANKLINK"] + "_" + traduction[this.props.language]["LANGCODE"] + ".pdf"}
@@ -87,7 +90,7 @@ class PageMainPage extends Component {
                         href={config["RULESLINK"] + traduction[this.props.language]["XPARADOX_FILENAME"]}
                         target="_blank"
                     >
-                        {traduction[this.props.language]["XPARADOX"]}
+                        {paradox}
                     </a>
                     <a
                         href={config["NOTESHEETLINK"]}
@@ -121,7 +124,7 @@ class PageMainPage extends Component {
                                className="icofont-youtube"></a>
                         </div>
 
-                        Copyright &copy; 2023 - Le Scorpion Masqué
+                        Copyright &copy; 2023 - Le Scorpion Masqué {console.log(this.props.language)}
                     </div>
 
 

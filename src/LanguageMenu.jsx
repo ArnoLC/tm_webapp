@@ -38,6 +38,8 @@ class LanguageMenu extends Component {
                     {this.props.language!==8?(<a onClick={() => this.swapLanguage(8)}>{traduction[8]["LANG"]}</a>):null}
                     {this.props.language!==9?(<a onClick={() => this.swapLanguage(9)}>{traduction[9]["LANG"]}</a>):null}
                     {this.props.language!==10?(<a onClick={() => this.swapLanguage(10)}>{traduction[10]["LANG"]}</a>):null}
+                    {this.props.language!==11?(<a onClick={() => this.swapLanguage(11)}>{traduction[11]["LANG"]}</a>):null}
+                    {this.props.language!==12?(<a onClick={() => this.swapLanguage(12)}>{traduction[12]["LANG"]}</a>):null}
                 </div>
             </div>
         );
