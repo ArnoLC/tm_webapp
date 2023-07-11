@@ -277,10 +277,13 @@ class App extends React.Component {
                 }
                 if (this.state.dailyText != "") {
                     Moment.locale("en");
-                    this.state.dailyText = Moment.unix(jsonResponse["curDate"]).format(
-                        traduction[this.state.language]["DATEFORMAT"]
+                    let time =
+                  Math.floor(new Date().getTime() / 1000.0) -
+                  new Date().getTimezoneOffset() * 60;
+                    this.state.dailyText = Moment.unix(time).format(
+                  traduction[this.state.language]["DATEFORMAT"]
                     );
-                }
+                  }                  
                 if (this.state.askSolo) this.changePage(idPage["P_ASKSOLO"]);
                 else this.changePage(idPage["P_INGAME"]);
             } else {
