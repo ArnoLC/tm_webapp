@@ -515,7 +515,7 @@ var traduction = {
         STEP1	:	"Játékmód"	,
         CLASSIC	:	"Klasszikus"	,
         EXTREME	:	"Extrém"	,
-        NIGHTMARE	:	"Lehetetlen küldetés"	,
+        NIGHTMARE	:	"Lehetetlen"	,
         STEP2	:	"Nehézségi szint"	,
         EASY	:	"Könnyű"	,
         MEDIUM	:	"Közepes"	,
@@ -553,7 +553,7 @@ var traduction = {
         WINSOLO0	:	"Óh! Nem sikerült legyőznöd a gépet."	,
         SHARERESULTS	:	"Másold be és oszd meg barátaiddal is az eredményt a közösségi felületeken."	,
         PASTEYOURRESULT	:	"Most bemásolhatod az eredményeidet a közösségi felületekre, hogy barátaiddal versenyezz a napi kihívásokban."	,
-        NIGHTMAREMODE	:	"Rémálom mód: lásd a szabályokat a 3. oldalon"	,
+        NIGHTMAREMODE	:	"Lehetetlen küldetés mód: lásd a szabályokat a 3. oldalon"	,
         EXTREMEMODE	:	"Extrém mód: lásd a szabályokat a 3. oldalon"	,
         TURINGMACHINE	:	"TURING MACHINE"	,
         SOCIALWIN	:	"LEGYŐZTEM A GÉPET!"	,
@@ -861,7 +861,7 @@ var traduction = {
         V4: "4",
         V5: "5",
         V6: "6",
-        ABOUTLINK: "http://www.scorpionmasque.com/en/turingmachine",
+        ABOUTLINK: "https://www.mundogalapagos.com.br/turing-machine/produto/TRM001",
         XPARADOX_FILENAME: "TuringMachine_The_X_Paradox_BR.pdf",
         CREATECHALLENGE: "Criar um desafio",
         NEW: "Novo",
@@ -1011,7 +1011,7 @@ var traduction = {
         V4: "4",
         V5: "5",
         V6: "6",
-        ABOUTLINK: "http://www.scorpionmasque.com/en/turingmachine",
+        ABOUTLINK: "https://luckyduckgames.com/pl/gry/503-turing-machine",
         XPARADOX_FILENAME: "TuringMachine_The_X_Paradox_PL.pdf",
         CREATECHALLENGE: "Stwórz wyzwanie",
         NEW: "NOWE",
@@ -1095,7 +1095,7 @@ var traduction = {
         SELECTCARDS: "Selecteer een criteriumkaart",
         CLICKTOSELECT: "Klik om een kaart te selecteren",
 
-        PRINTABLECHALLENGES: "Afdrukbare uitdagingen"
+        PRINTABLECHALLENGES: "Uitdagingen downloaden"
     }
 };
 
