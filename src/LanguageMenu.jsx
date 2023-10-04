@@ -35,12 +35,12 @@ class LanguageMenu extends Component {
                     {this.props.language!==5?(<a onClick={() => this.swapLanguage(5)}>{traduction[5]["LANG"]}</a>):null}
                     {this.props.language!==6?(<a onClick={() => this.swapLanguage(6)}>{traduction[6]["LANG"]}</a>):null}
                     {this.props.language!==7?(<a onClick={() => this.swapLanguage(7)}>{traduction[7]["LANG"]}</a>):null}
-                    {/*this.props.language!==8?(<a onClick={() => this.swapLanguage(8)}>{traduction[8]["LANG"]}</a>):null}
-                    {this.props.language!==9?(<a onClick={() => this.swapLanguage(9)}>{traduction[9]["LANG"]}</a>):null*/}
+                    {this.props.language!==8?(<a onClick={() => this.swapLanguage(8)}>{traduction[8]["LANG"]}</a>):null}
+                    {this.props.language!==9?(<a onClick={() => this.swapLanguage(9)}>{traduction[9]["LANG"]}</a>):null}
                     {this.props.language!==10?(<a onClick={() => this.swapLanguage(10)}>{traduction[10]["LANG"]}</a>):null}
                     {this.props.language!==11?(<a onClick={() => this.swapLanguage(11)}>{traduction[11]["LANG"]}</a>):null}
                     {this.props.language!==12?(<a onClick={() => this.swapLanguage(12)}>{traduction[12]["LANG"]}</a>):null}
-                    {/*this.props.language!==13?(<a onClick={() => this.swapLanguage(13)}>{traduction[13]["LANG"]}</a>):null*/}
+                    {this.props.language!==13?(<a onClick={() => this.swapLanguage(13)}>{traduction[13]["LANG"]}</a>):null}
                 </div>
             </div>
         );
