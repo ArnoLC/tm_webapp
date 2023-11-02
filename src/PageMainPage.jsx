@@ -24,11 +24,12 @@ import boxGR from "./images/BOX_GR.png";
 import boxPL from "./images/BOX_PL.png";
 import boxJP from "./images/BOX_JP.png";
 import boxNL from "./images/BOX_NL.png";
+import boxTH from "./images/BOX_TH.png";
 import logoSM from "./images/logo_sm.png";
 import home from "./images/Home.png";
 import config from "./config";
 
-const imgBox = [boxFR, boxEN, boxCNS, boxCNT, boxKR, boxDE, boxHU, boxIT, boxES, boxGR, boxBR, boxJP, boxPL, boxNL];
+const imgBox = [boxFR, boxEN, boxCNS, boxCNT, boxKR, boxDE, boxHU, boxIT, boxES, boxGR, boxBR, boxJP, boxPL, boxNL, boxTH];
 
 class PageMainPage extends Component {
     render() {
