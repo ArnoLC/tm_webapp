@@ -16,7 +16,8 @@ var idPage = {
   P_SEARCH: 14,
   P_AREYOUSURE: 15,
   P_RESULTMACHINE: 16,
-  P_CREATECHALLENGE: 17
+  P_CREATECHALLENGE: 17,
+  P_RECAPTCHATEST: 18
 };
 
 export default idPage;

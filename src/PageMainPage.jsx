@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { ReCaptcha } from 'react-recaptcha-google';
 import "./styles.css";
 import "./css/PageMainPage.css";
 
@@ -25,11 +26,14 @@ import boxPL from "./images/BOX_PL.png";
 import boxJP from "./images/BOX_JP.png";
 import boxNL from "./images/BOX_NL.png";
 import boxTH from "./images/BOX_TH.png";
+import boxUA from "./images/BOX_UA.png";
+import boxRU from "./images/BOX_RU.png";
+import boxCZ from "./images/BOX_CZ.png";
 import logoSM from "./images/logo_sm.png";
 import home from "./images/Home.png";
 import config from "./config";
 
-const imgBox = [boxFR, boxEN, boxCNS, boxCNT, boxKR, boxDE, boxHU, boxIT, boxES, boxGR, boxBR, boxJP, boxPL, boxNL, boxTH];
+const imgBox = [boxFR, boxEN, boxCNS, boxCNT, boxKR, boxDE, boxHU, boxIT, boxES, boxGR, boxBR, boxJP, boxPL, boxNL, boxTH, boxUA, boxRU, boxCZ];
 
 class PageMainPage extends Component {
     render() {
@@ -112,24 +116,22 @@ class PageMainPage extends Component {
                     <div className="socialLinks">
                         <a href="https://www.scorpionmasque.com" target="_blank">
                             <img className="logo_SM"
-                                 src={logoSM}
-                                 alt="Scorpion masqué"/>
+                                src={logoSM}
+                                alt="Scorpion masqué"/>
                         </a>
                         <div className="social">
                             <a href="https://www.instagram.com/scorpionmasque/" target="_blank"
-                               className="icofont-instagram"></a>
+                            className="icofont-instagram"></a>
                             <a href="https://twitter.com/Scorpionmasque" target="_blank"
-                               className="icofont-twitter"></a>
+                            className="icofont-twitter"></a>
                             <a href="https://www.facebook.com/scorpionmasque" target="_blank"
-                               className="icofont-facebook"></a>
+                            className="icofont-facebook"></a>
                             <a href="https://www.youtube.com/user/LeScorpionmasque" target="_blank"
-                               className="icofont-youtube"></a>
+                            className="icofont-youtube"></a>
                         </div>
 
                         Copyright &copy; 2023 - Le Scorpion Masqué {console.log(this.props.language)}
                     </div>
-
-
                 </div>
             </div>
         );
