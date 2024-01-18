@@ -1311,7 +1311,7 @@ var traduction = {
         V4: "4",
         V5: "5",
         V6: "6",
-        ABOUTLINK: "https://www.scorpionmasque.com/en/turingmachine",
+        ABOUTLINK: "https://www.lavkaigr.ru/projects/mashina-tyuringa/",
         XPARADOX_FILENAME: "TuringMachine_The_X_Paradox_RU.pdf",
         CREATECHALLENGE: "СОЗДАТЬ ИСПЫТАНИЕ",
         NEW: "новый",

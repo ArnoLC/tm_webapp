@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import { ReCaptcha } from 'react-recaptcha-google';
 import "./styles.css";
 import "./css/PageMainPage.css";
 
@@ -116,7 +115,7 @@ class PageMainPage extends Component {
                     <div className="socialLinks">
                         <a href="https://www.scorpionmasque.com" target="_blank">
                             <img className="logo_SM"
-                                src={logoSM}
+                                src="./images/logo.php"
                                 alt="Scorpion masqué"/>
                         </a>
                         <div className="social">

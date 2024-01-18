@@ -487,7 +487,7 @@ class App extends React.Component {
                             style={{verticalAlign: "middle"}}
                             className="home"
                             alt="logoTM"
-                            src={logoTM}
+                            src="./images/logoTM.php"
                             width="auto"
                             height="25"
                             onClick={() => this.changePage(idPage["P_MAIN"])}
